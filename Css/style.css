@@ -7,7 +7,7 @@
 :root {
   --header-height: 3rem;
 
-  --hue-color: 250;
+  --hue-color: 220;
 
   --first-color: hsl(var(--hue-color), 69%, 61%);
   --first-color-second: hsl(var(--hue-color), 69%, 61%);
@@ -21,7 +21,7 @@
   --container-color: #fff;
   --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
-
+  
   --body-font: "Poppins", sans-serif;
   --big-font-size: 2rem;
   --h1-font-size: 1.5rem;
@@ -336,7 +336,7 @@ img {
 
 .home-scroll-mouse {
   margin-right: 0.125rem;
-  width: 35px;
+  width: 30px;
 }
 
 .home-scroll-name {
