@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
-
-
-
-
 :root {
   --header-height: 3rem;
 
@@ -21,7 +17,7 @@
   --container-color: #fff;
   --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
-  
+
   --body-font: "Poppins", sans-serif;
   --big-font-size: 2rem;
   --h1-font-size: 1.5rem;
@@ -59,6 +55,7 @@
     }
   }
 }
+
 
 /* dark color scheme  */
 body.dark-theme {
@@ -141,7 +138,6 @@ img {
 
 .section-title {
   font-size: var(--h1-font-size);
-
 }
 
 .section-subtitle {
@@ -183,7 +179,7 @@ img {
 .nav {
   max-width: 968px;
   height: var(--header-height);
-  display:  flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -192,7 +188,6 @@ img {
 .nav-toggle {
   color: var(--title-color);
   font-weight: var(--font-medium);
-
 }
 
 .nav-logo:hover {
@@ -300,13 +295,10 @@ img {
 
 .home-data {
   grid-column: 1/3;
-
 }
 
 .home-title {
   font-size: var(--big-font-size);
-
-
 }
 
 .home-subtitle {
@@ -317,11 +309,10 @@ img {
 }
 
 .home-description {
-  margin-bottom: var(--margin-bottom-0-2);  
+  margin-bottom: var(--margin-bottom-0-2);
 }
 
 .home-scroll {
- 
   /* display: none; */
 }
 
@@ -336,7 +327,7 @@ img {
 
 .home-scroll-mouse {
   margin-right: 0.125rem;
-  width: 30px;
+  width: 24px;
 }
 
 .home-scroll-name {
@@ -372,7 +363,6 @@ img {
 .button-flex {
   display: inline-flex;
   align-items: center;
-
 }
 
 .button-small {
@@ -400,7 +390,7 @@ img {
 /* about  */
 
 .about-img {
-  width: 250px;
+  width: 200px;
   border: 0.5rem;
   justify-self: center;
   align-items: center;
@@ -442,8 +432,6 @@ img {
 .about-buttons {
   display: flex;
   justify-content: center;
-  align-items: center;
-
 }
 
 /* skills  */
