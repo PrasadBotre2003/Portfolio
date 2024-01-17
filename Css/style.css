@@ -7,10 +7,10 @@
 :root {
   --header-height: 3rem;
 
-  --hue-color: 124;
+  --hue-color: 225;
 
-  --first-color: hsl(var(--hue-color), 69%, 61%);
-  --first-color-second: hsl(var(--hue-color), 69%, 61%);
+  --first-color: hsl(var(--hue-color), 8%, 50%);
+  --first-color-second: hsl(var(--hue-color), 8%, 40%);
   --first-color-alt: hsl(var(--hue-color), 57%, 53%);
   --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
   --title-color: hsl(var(--hue-color), 8%, 15%);
